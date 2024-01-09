@@ -49,4 +49,4 @@ python ema_slope_rel_L_strat.py
 
 
 <p>The models will generate backtesting results and reports in the <code>results</code> folder.</p>
-<p>The models use backtesting data from 2021-2023 for optimizing the signal parameters. If the strategy is not generating alpha, use the <code>ema_rel_slope_L_strat_func.py</code> to re-evaluate the optimal parameters for signals (1 Indicator signal generation), subject to current market conditions</p>
+<p>The models use backtesting data from 2021-2023 for optimizing the signal parameters. If the strategy is not generating alpha, use the <code>ema_rel_slope_L_strat_func.py</code> to re-evaluate the optimal parameters for signals (1 Indicator signal generation), subject to current market conditions. You can also run <code>ema_rel_slope_L_strat_tt_split.py</code> to evaluate optimal parameters from backtesting data of 1 year, and then portfolio simulation on the following year to check strategy's and signal parameter's validity</p>
