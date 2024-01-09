@@ -30,7 +30,7 @@ python libs_install.py
 
 <h2>Step 3: Backtesting the Strategy</h2>
 
-<p>Open the <code>backtest</code> folder and run the <code>ema_slope_rel_L_strat.py</code> script to perform the backtesting of the strategy for NSEI (Nifty 50) for the last 2 years. The program is currently parameterized for performance on NIFTY 50 Index. Run the </p>
+<p>Open the <code>backtest</code> folder. There are currently 2 strategies. One <code>ema_slope_rel_L_strat.py</code> using 1 indicator for buy-sell signal generation, and another <code>ema_slope_rel_2S_L_strat.py</code> using 2 indicators for buy-sell signal generation. Run the desired script to perform the backtesting of the strategy for NSEI (Nifty 50) for the last 2 years. The program is currently parameterized for performance on NIFTY 50 Index. Run the </p>
 
 
 <pre>
