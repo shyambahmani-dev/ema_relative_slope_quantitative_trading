@@ -8,8 +8,9 @@
 
 <pre>
 <code>
-git clone https://github.com/your_username/your_repository.git
-cd your_repository
+git clone https://shyambahmani-dev/relative_ema_slope_quantitative_trading.git
+cd relative_ema_slope_quantitative_trading
+cd Project1
 </code>
 </pre>
 
@@ -29,13 +30,20 @@ python libs_install.py
 
 <h2>Step 3: Backtesting the Strategy</h2>
 
-<p>Open the <code>backtest</code> folder and run the <code>ema_slope_rel_L_strat.py</code> script to perform the backtesting of the strategy for NSEI (Nifty 50) for the last 2 years. The program is currently parameterized for performance on NIFTY 50 Index. </p>
+<p>Open the <code>backtest</code> folder and run the <code>ema_slope_rel_L_strat.py</code> script to perform the backtesting of the strategy for NSEI (Nifty 50) for the last 2 years. The program is currently parameterized for performance on NIFTY 50 Index. Run the </p>
 
 
 <pre>
 <code>
 cd backtest
+python ema_slope_rel_2S_L_strat.py
+
+## -- 1 indicator per signal strategy -- ##
+
+cd backtest
 python ema_slope_rel_L_strat.py
+
+
 </code>
 </pre>
 
